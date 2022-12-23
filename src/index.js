@@ -5,7 +5,7 @@ const button = document.querySelector('#run');
 const timer = document.querySelector('#timer');
 const output = document.querySelector('#output');
 let minutes = 29;
-let seconds = 59;
+let seconds = 30;
 
 const codeEditor = monaco.editor.create(document.getElementById('code'), {
   value: `// Start coding here: 
@@ -26,7 +26,9 @@ button.addEventListener('click', () => {
   try {
     const result = eval(codeEditor.getValue());
     output.textContent = result;
-  } catch (error) {}
+  } catch (error) {
+    output.textContent = error;
+  }
 });
 
 let counter = setInterval(() => {
@@ -69,4 +71,5 @@ export default function reset() {
     timer.textContent = `${minutes}:${seconds < 10 ? '0' + seconds : seconds}`;
   }, 1000);
   output.textContent = '// Here will appear the output when you run your code';
+  button.removeAttribute('disabled');
 }

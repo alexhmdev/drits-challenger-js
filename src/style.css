@@ -31,7 +31,7 @@
   border: 0;
 }
 
-.output > code {
+.code {
   width: 100%;
   height: fit-content;
 }
