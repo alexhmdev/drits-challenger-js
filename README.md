@@ -2,10 +2,10 @@
 
 ## 🔗 [Drits-challenger-js](https://peckas13.github.io/drits-challenger-js/)
 
-A simple project to make a Junior interview, including a code editor and a test case!
+A simple project to make JavaScript challenges, including a code editor and a test case!
 Currently One simple challenge
 
-Made with JS vanilla:
+Made with JavaScript vanilla:
 - Using [Webpack](https://webpack.js.org/)
 - Using [Monaco editor](https://microsoft.github.io/monaco-editor/)
 - [Pico.css](https://picocss.com/)
