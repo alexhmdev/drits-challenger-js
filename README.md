@@ -1,6 +1,6 @@
 # 🚀 Welcome to drits challenger!
 
-## 🔗 [Drits-challenger-js](https://peckas13.github.io/drits-challenger-js/)
+## 🔗 [Drits-challenger-js](https://alexhmdev.github.io/drits-challenger-js/)
 
 A simple project to make JavaScript challenges, including a code editor and a test case!
 Currently One simple challenge
